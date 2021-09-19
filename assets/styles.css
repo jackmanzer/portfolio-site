@@ -1,0 +1,274 @@
+
+/********GLOBAL:START*********/
+
+
+h1 {
+    font-size: clamp(2.5rem, -1.5000rem + 20.0000vw, 3.75rem);
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    color: #212529;
+}
+
+h2 {
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #212529;
+    
+}
+
+main {
+    margin: 0 auto;
+    max-width: 32rem;
+}
+
+/********GLOBAL:END*********/
+
+/********INTRO:START*********/
+
+.backdrop {
+    height: 1.5rem;
+}
+
+.headshot {
+    margin-top: 4rem;
+    width: 100%;
+}
+.intro {
+    padding-top: 4rem;
+    margin: 0 auto;
+    width: calc(100% - 2rem);
+}
+
+.intro h1 {
+    line-height: 2.5rem;
+}
+
+.intro span {
+    font-size: 1.25rem;
+}
+
+
+.intro p {
+    margin-top: 1.5rem;
+    line-height: 1.5rem;
+    color: #212529;
+}
+
+.intro ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% - 2rem);
+    margin-bottom: .5rem;
+    font-size: .875rem;
+}
+
+.intro li {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.intro a {
+    margin-left: .25rem;
+    color: #212529;
+}
+
+
+
+/********INTRO:END*********/
+/********INTRO:MEDIA:START*********/
+
+@media screen and (min-width: 760px) {
+   
+    main {
+        max-width: 48rem;
+    }
+
+    .intro {
+        display: flex;
+        align-items: center;
+    }
+
+    .intro-copy-container {
+        width: 60%
+    }
+    .headshot-container {
+        width: 40%
+    }
+    .intro h1 {
+        margin-top: 2rem;
+    }
+    .intro p {
+        margin-right: 1rem;
+    }
+
+    .intro ul {
+        margin-top: 1rem;
+    }
+    .intro li {
+        margin-right: 1.5rem
+    }
+}
+
+
+/********INTRO:MEDIA:END*********/
+/********SKILLS:START*********/
+
+.skills {
+    padding-top: 4rem;
+    width: calc(100% - 2rem);
+    margin: 0 auto; 
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: .875rem;
+}
+
+.skills li {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.skills span {
+    margin-left: .25rem;
+}
+
+/********SKILLS:END*********/
+/********PROJECTS:START*********/
+
+.projects {
+    padding-top: 4rem;
+}
+.projects h2 {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project {
+    margin: 0 auto;
+    height: 10rem;
+    background-color: grey;
+    width: calc(100% - 2rem);
+}
+
+.projects p {
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: calc(100% - 2rem);
+    color: #212529;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+}
+
+.strategic-ml {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #02162a;
+}
+
+.strategic-ml-logo {
+    width: 12rem;
+}
+
+/********PROJECTS:END*********/
+/********PROJECTS-MEDIA-QUERIES:START*********/
+
+@media screen and (min-width: 760px) {
+    .project {
+        height: 14rem;
+    }
+}
+
+/********PROJECTS-MEDIA-QUERIES:END*********/
+/********CONTACT:START*********/
+
+.contact {
+    padding-bottom: 6rem;
+}
+
+.contact h2 {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact p {
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: calc(100% - 2rem);
+    line-height: 1.5rem;
+}
+::placeholder {
+    padding-left: .25rem;
+    font-size: .75rem;
+}
+
+input[type=text] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: calc(100% - 2rem);
+    height: 1.75rem;
+}
+
+input[type=email] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: calc(100% - 2rem);
+    height: 1.75rem;
+}
+
+textarea {
+    padding-top: .25rem;
+    height: 10rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: calc(100% - 2rem);  
+}
+
+
+/********CONTACT:END********/
+/********CONTACT-MEDIA-QUERIES:START*********/
+
+@media screen and (min-width: 760px) {
+    form {
+        display: flex;
+    }
+    input[type=text] {
+        margin-top: 1rem;
+    }
+    form div {
+        width: 40%;
+    }
+    textarea {
+        height: 4.5rem;
+        width: calc(60% - 1rem);
+        margin:0;
+        margin-top: 1rem;
+    }
+}
+
+/********CONTACT-MEDIA-QUERIES:END*********/
+/********FOOTER:START*********/
+
+footer {
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+footer p {
+    margin-left: 1rem;
+}
+
+
+/********FOOTER:END*********/

@@ -8,7 +8,7 @@ html, body {
 .thank-you-message {
     text-align: center;
     width: calc(100% - .5rem);
-    max-width: 32rem;
+    max-width: 20rem;
 }
 
 p { 
@@ -17,8 +17,9 @@ p {
     margin-bottom: 1rem;
 }
 
-video {
+img {
     width: 100%;
+    border: .1px solid lightgrey;
 }
 
 p a {

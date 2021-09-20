@@ -230,6 +230,7 @@ input[type=text] {
     height: 1.75rem;
     font-size: .875rem;
     padding-bottom: .23rem;
+    border:1px solid #767676;
 }
 
 input[type=email] {
@@ -240,6 +241,8 @@ input[type=email] {
     height: 1.75rem;
     font-size: .875rem;
     padding-bottom: .23rem;
+    box-shadow: none;
+    border:1px solid #767676;
 }
 
 button[type=submit] {
@@ -273,6 +276,8 @@ textarea {
     margin-top: 1rem;
     width: calc(100% - 2rem);  
     font-size: .875rem;
+    border:1px solid #767676;
+    border-radius: .2rem;
 }
 
 

@@ -257,8 +257,8 @@ button[type=submit] {
     font-size: .875rem;
     background-color: #0e6efd;
     width: 8rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
     border-radius: .15rem;
 }
 

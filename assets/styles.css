@@ -210,7 +210,8 @@ main {
     line-height: 1.5rem;
 }
 
-.contact p a {
+.contact 
+p a {
     color: #212529;
 }
 

@@ -197,8 +197,10 @@ main {
     background-color: #78909c; 
 }
 
-.travel-buddy-logo {
-    
+.leverage {
+    background-image: url(./img/leverage.png);
+    background-size: 100%;
+    background-position: center;
 }
 
 /********PROJECTS:END*********/

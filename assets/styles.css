@@ -156,52 +156,72 @@ main {
 
 .projects {
     padding-top: 4rem;
-}
-.projects h2 {
+    padding-bottom: 4rem;
+  }
+  .projects h2 {
     margin-left: 1rem;
     margin-bottom: 1rem;
-}
-
-.project {
+  }
+  
+  .project {
     margin: 0 auto;
     height: 10rem;
     background-color: grey;
     width: calc(100% - 2rem);
-}
+  }
+  
+  .projects a {
+      display: block;
+      margin-top: 1rem;
+  }
 
-
-.projects p {
+  /* .projects p {
     margin: 0 auto;
     margin-top: 1rem;
     width: calc(100% - 2rem);
     color: var(--black);
     margin-bottom: 3rem;
     line-height: 1.5;
-}
+  } */
+  .star-wars-ipsum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-size: cover;
+  }
 
-.strategic-ml {
+  .star-wars-ipsum img {
+      width: 50%;
+  }
+  
+  .strategic-ml {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #02162a;
-}
+  }
 
-.strategic-ml-logo {
+  .strategic-ml img {
+      width: 50%;
+      max-width: 14rem;
+  }
+  
+  .strategic-ml-logo {
     width: 12rem;
-}
-
-.travel-buddy {
+  }
+  
+  .globe-stack {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #78909c; 
-}
+    background-color: #5EC900;
+  }
 
-.leverage {
-    background-image: url(./img/leverage.png);
-    background-size: 100%;
-    background-position: center;
-}
+  .globe-stack img {
+      width: 50%;
+      max-width: 15rem;
+  }
 
 /********PROJECTS:END*********/
 /********PROJECTS-MEDIA-QUERIES:START*********/

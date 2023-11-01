@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/8ec00faec5.js" crossorigin="anonymous"></script>
+
+  <title>About</title>
+</head>
+
+<body>
+  <div class="overflow-prevention-wrapper">
+    <header class="header">
+      <div>
+        <img src="img/logo.png" class="header-logo" />
+      </div>
+
+      <input class="nav-toggle" id="nav-toggle" type="checkbox" />
+
+      <label class="nav-toggle-label" for="nav-toggle" id="hamburger-menu">
+        <span><img class="hamburger-menu" src="img/hamburger-menu.png" /></span></label>
+
+      <nav class="mobile_tablet_nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#contact-form">Contact</a></li>
+          <li><a href="#">Sign in</a></li>
+          <li><a href="#">Get Started</a></li>
+        </ul>
+      </nav>
+
+      <nav class="desktop_nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#contact-form">Contact</a></li>
+          <li>
+            <a
+              href="https://globestack.us.auth0.com/authorize?response_type=code&client_id=mUlrIQJ0rJRpafNoJ1D1Aqqp7g8stOOG&redirect_uri=https://app.globestack.io/auth/callback&scope=openid"><span>Sign
+                in</span></a>
+          </li>
+          <li><button class="sign-up-button"
+              onclick="window.location='https://globestack.us.auth0.com/authorize?response_type=code&client_id=mUlrIQJ0rJRpafNoJ1D1Aqqp7g8stOOG&redirect_uri=https://app.globestack.io/auth/callback&scope=openid&screen_hint=signup'"
+              class="sign-up-button">Get Started</button></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="vision-title-section">
+      <img class="computer-illustration" src="img/computer.png" />
+      <div class="vision-title-section-copy-container">
+        <h1>
+          "Remember <br class="vision-title-section-first-br" />
+          how fast<br class="vision-title-section-second-br" />
+          <span class="spacer">&nbsp;&nbsp;&nbsp;</span>web apps
+          <br class="vision-title-section-first-br" />used to be?"
+        </h1>
+        <p>
+          Odds are your site loads slower than a website from the 90s: let's
+          fix that.
+        </p>
+      </div>
+      <img class="computer-illustration1" src="img/computer-illustration1.png" />
+    </section>
+    <section class="vision-copy-section">
+      <div class="vision-copy-container">
+        <h2>
+          The promise of the internet is to make information instantly
+          accessible to any person located anywhere on the planet.
+        </h2>
+        <p class="about-p-base-style">
+          Too often, web pages and apps are slow and clunky for anyone not
+          using the latest iPhone with a 5G connection from a Western country.
+          This makes for frustrated users and lost sales for businesses.
+        </p>
+        <p class="about-p-base-style">
+          But obtaining consistently high global performance for complex
+          applications is no simple matter. The tech giants have legions of
+          engineers optimizing their apps, but how can startups with fewer
+          resources achieve the same level of speed?
+        </p>
+        <p class="about-p-base-style">
+          We believe that startups deserve an infrastructure platform that
+          takes care of all the hard parts of global performance 'behind the
+          scenes' so that they can focus their energies on their own products.
+        </p>
+        <p class="about-p-base-style">
+          Specifically, a global infrastructure platform should:
+        </p>
+        <ul>
+          <li>
+            free the developer from the nuisance of optimizations - you
+            shouldn't need to manually tune a bloated webpack config file to
+            get good global performance for your webapp; the platform should
+            take care of that for you.
+          </li>
+          <li>
+            provide fast, rock-solid SLAs - developer's deserve a host that
+            actually serves their content at the edge with consistently high
+            performance 100% of the time, not the standard CDN deal from today
+            that basically says: "we'll keep your content at the edge whenever
+            we feel like it is convenient for us, and when it's inconvenient
+            we'll just slow down your site without telling you."
+          </li>
+          <li>
+            abstract away the architectural complexity of muti-region
+            applications so that developers can focus on writing the code that
+            makes their business go, not messing around with convoluted
+            architecture diagrams and wrangling cloudformation templates.
+            Google 'aws multi-region deployment' to get a feel for how
+            complicated things are today - we want to change that for the
+            better.
+          </li>
+          <li>
+            provide trustworthy, transparent global monitoring - you should be
+            able to measure how well your site is performing all over the
+            world with just a few clicks. If the performance isn't where you
+            want it to be, the platform should provide guidance to help you on
+            your way.
+          </li>
+        </ul>
+        <p class="about-p-base-style">
+          Our mission is to build GlobeStack into a platform that does all
+          these things and more. We're starting out tackling one aspect at a
+          time, and we've decided to focus on the monitoring piece first - you
+          can check out our first product, GlobeStack Insights,
+          <a href="#">here</a>.
+        </p>
+      </div>
+    </section>
+    <footer class="footer-alternate">
+      <div class="footer-alternate-copy-container">
+        <p>© <span class="bold-footer-text">GlobeStack 2020</span></p>
+        <ul>
+          <li>
+            <span class="li-decoration">&#9686;</span><a href="index.html">Home</a>
+          </li>
+          <li>
+            <span class="li-decoration">&#9686;</span><a href="index.html#contact-form">Contact</a>
+          </li>
+          <li>
+            <span class="li-decoration">&#9686;</span><a
+              href="https://globestack.us.auth0.com/authorize?response_type=code&client_id=mUlrIQJ0rJRpafNoJ1D1Aqqp7g8stOOG&redirect_uri=https://app.globestack.io/auth/callback&scope=openid">Sign
+              in</a>
+          </li>
+          <li>
+            <span class="li-decoration">&#9686;</span><a
+              href="https://globestack.us.auth0.com/authorize?response_type=code&client_id=mUlrIQJ0rJRpafNoJ1D1Aqqp7g8stOOG&redirect_uri=https://app.globestack.io/auth/callback&scope=openid&screen_hint=signup">Get
+              Started</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

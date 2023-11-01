@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/8ec00faec5.js" crossorigin="anonymous"></script>
+
+  <title>GlobeStack</title>
+</head>
+
+<body id="body">
+  <div class="overflow-prevention-wrapper">
+    <header class="header">
+      <div>
+        <img src="img/logo.png" class="header-logo" />
+      </div>
+      <input class="nav-toggle" id="nav-toggle" type="checkbox" />
+
+      <label class="nav-toggle-label" for="nav-toggle" id="hamburger-menu">
+        <span><img class="hamburger-menu" src="img/hamburger-menu.png" /></span></label>
+
+      <nav class="mobile_tablet_nav">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#contact-form">Contact</a></li>
+          <li><a
+              href="https://globestack.us.auth0.com/authorize?response_type=code&client_id=mUlrIQJ0rJRpafNoJ1D1Aqqp7g8stOOG&redirect_uri=https://app.globestack.io/auth/callback&scope=openid">Sign
+              in</a></li>
+          <li><a
+              href="https://globestack.us.auth0.com/authorize?response_type=code&client_id=mUlrIQJ0rJRpafNoJ1D1Aqqp7g8stOOG&redirect_uri=https://app.globestack.io/auth/callback&scope=openid&screen_hint=signup">Get
+              Started</a></li>
+        </ul>
+      </nav>
+
+      <nav class="desktop_nav">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#contact-form">Contact</a></li>
+          <li>
+            <a
+              href="https://globestack.us.auth0.com/authorize?response_type=code&client_id=mUlrIQJ0rJRpafNoJ1D1Aqqp7g8stOOG&redirect_uri=https://app.globestack.io/auth/callback&scope=openid"><span>Sign
+                in</span></a>
+          </li>
+          <li>
+            <button
+              onclick="window.location='https://globestack.us.auth0.com/authorize?response_type=code&client_id=mUlrIQJ0rJRpafNoJ1D1Aqqp7g8stOOG&redirect_uri=https://app.globestack.io/auth/callback&scope=openid&screen_hint=signup'"
+              class="sign-up-button">
+              Get Started
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="banner-section">
+        <h1>
+          "Let's make <br class="first-br" />the web fast
+          <br class="second-br" />
+          for <br class="first-br" />everyone ... <br class="first-br" />
+          everywhere"
+        </h1>
+        <p>
+          We believe that startups deserve an infrastructure platform that
+          takes care of all the hard parts of global performance 'behind the
+          scenes' so that they can focus on their own products.
+        </p>
+        <!-- <a href="#">Our vision</a> -->
+        <img class="banner-illustration" src="img/world.png" />
+      </section>
+      <section class="product-demo">
+        <div class="product-demo-content-container">
+          <h2>
+            Meet your one-stop-shop for understanding your application's global
+            performance ...
+          </h2>
+          <p>
+            GlobeStack Insights tells you exactly what's going
+            on and provides clear, actionable recommendations to help you make
+            improvements.
+          </p>
+          <video autoplay muted loop class="product-video" src="videos/globestack.product.demo.mp4"
+            type="video/mp4"></video>
+          <p class="product-demo-caption">
+            Assess your site's global performance; see how you stack up
+            against your competition; identify problematic dependencies that
+            are holding you back.
+          </p>
+
+          <button
+            onclick="window.location='https://globestack.us.auth0.com/authorize?response_type=code&client_id=mUlrIQJ0rJRpafNoJ1D1Aqqp7g8stOOG&redirect_uri=https://app.globestack.io/auth/callback&scope=openid&screen_hint=signup'"
+            class="sign-up-button">
+            Try Insights
+          </button>
+        </div>
+      </section>
+      <section class="product-specs">
+        <div class="product-specs-title-container">
+          <h2>The Data You Need. Just a few clicks away.</h2>
+          <p>
+            No one wants to spend time messing with a monitoring tool - you
+            want to ship features and get paid. We're here for you. Here's how
+            GlobeStack insights takes the hassle out of Global Performance:
+          </p>
+        </div>
+        <div class="product-specs-content-container">
+          <div class="product-spec-container">
+            <div class="product-spec">
+              <svg id="rocket" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 48 48"
+                class="product-spec-icon">
+                <path class="vi-primary-green"
+                  d="M29.624,43.785L25.381,32.472l7.778-7.778,2.075,8.735ZM4.168,18.329l10.357-5.611,8.735,2.075-7.778,7.778ZM5.624,34.991c1.92-4.929,5.24-2.274,5.24-2.274l2.222,2.217,2.2,2.193s2.627,3.28-2.295,5.213a12.725,12.725,0,0,1-4.578.376c-0.815-.076-3.537,1.6-4.347,1.222-0.39-.814,1.288-3.537,1.207-4.355A12.681,12.681,0,0,1,5.624,34.991Z" />
+                <path class="vi-secondary-green"
+                  d="M10.7,24.537C29.323,6.122,43.983,3.986,43.983,3.986S41.823,18.484,23.2,36.9c0,0-4.841,5.327-11.38-1.14A8.244,8.244,0,0,1,10.7,24.537Z" />
+                <path class="vi-primary-green"
+                  d="M27.646,20.336a4.454,4.454,0,1,1-6.346-.058A4.512,4.512,0,0,1,27.646,20.336Z" />
+              </svg>
+              <h5>Zero-Configuration - It Just Works</h5>
+              <p>
+                Enter the URL of your website/product and instantly get a
+                snapshot of your site's global performance. No configuration
+                required.
+              </p>
+            </div>
+            <div class="product-spec">
+              <svg class="product-spec-icon nudge-down nudge-top" xmlns="http://www.w3.org/2000/svg" width="64"
+                height="64" viewBox="0 0 48 48">
+                <path class="vi-secondary-blue" d="M6.008,27.205L25.215,8,41,8V23L22,43Z" />
+                <path class="vi-primary-blue"
+                  d="M9.8,27.205l2.526-2.526,12,12L21.795,39.2ZM30.951,13.629a3.126,3.126,0,1,1,0,4.42A3.126,3.126,0,0,1,30.951,13.629Z" />
+              </svg>
+              <h5>Straightforward Pricing</h5>
+              <p>
+                There's no 'contact us for quote' nonsense here - that's not
+                how we roll. Start with the base plan at just $9.99 and from
+                there just pay for what you use.
+              </p>
+            </div>
+
+            <div class="product-spec">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="64" width="64"
+                class="product-spec-icon">
+                <!-- Font Awesome Pro 5.15.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                <defs></defs>
+                <path
+                  d="M336 64h-80a64 64 0 0 1 64 64H64a64 64 0 0 1 64-64H48a48 48 0 0 0-48 48v352a48 48 0 0 0 48 48h288a48 48 0 0 0 48-48V112a48 48 0 0 0-48-48zM65.6 241.4l12.7-12.6a5.37 5.37 0 0 1 7.6 0l20.6 20.8 47.6-47.2a5.37 5.37 0 0 1 7.6 0l12.6 12.7a5.37 5.37 0 0 1 0 7.6l-64.2 63.6a5.37 5.37 0 0 1-7.6 0L65.6 249a5.37 5.37 0 0 1 0-7.6zM96 392a24 24 0 1 1 24-24 23.94 23.94 0 0 1-24 24zm224-16a8 8 0 0 1-8 8H168a8 8 0 0 1-8-8v-16a8 8 0 0 1 8-8h144a8 8 0 0 1 8 8zm0-96c0 4.4-4.3 8-9.6 8H154.1l32.3-32h124c5.3 0 9.6 3.6 9.6 8z"
+                  class="vi-secondary-green" />
+                <path
+                  d="M96 344a24 24 0 1 0 24 24 23.94 23.94 0 0 0-24-24zm65.7-141.6a5.37 5.37 0 0 0-7.6 0l-47.6 47.2-20.6-20.8a5.37 5.37 0 0 0-7.6 0l-12.7 12.6a5.37 5.37 0 0 0 0 7.6l36.9 37.3a5.37 5.37 0 0 0 7.6 0l64.2-63.6a5.37 5.37 0 0 0 0-7.6zM256 64a64 64 0 0 0-128 0 64 64 0 0 0-64 64h256a64 64 0 0 0-64-64zm-64 24a24 24 0 1 1 24-24 23.94 23.94 0 0 1-24 24z"
+                  class="vi-primary-green" />
+              </svg>
+              <h5>Big Picture or Deep Dive - We've Got The Info You Need</h5>
+              <p>
+                Start from a comprehensive view of your site's performance
+                across multiple continents, then drill down to individual HTTP
+                requests to figure out what's causing slowness.
+              </p>
+            </div>
+            <div class="product-spec">
+              <svg class="product-spec-icon nudge-top nudge-down" xmlns="http://www.w3.org/2000/svg" width="64"
+                height="64" viewBox="0 0 48 48">
+                <rect class="vi-primary-blue" x="6" y="35" width="36" height="4" />
+                <path class="vi-secondary-blue" d="M9,20h5V35H9V20Zm8,5h5V35H17V25Zm8-9h5V35H25V16Zm8-7h5V35H33V9Z" />
+              </svg>
+              <h5>Actionable Insights for Real Results</h5>
+              <p>
+                What are the 'low-hanging fruit' actions that you can take
+                *right now* to improve your site's global performance? The
+                very first thing we show you when you enter your site's URL is
+                a prioritized list of recommendations to get you the maximal
+                speedup with minimal work.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sixth-row" id="contact-form">
+        <div id="mc_embed_signup">
+          <form id="contact-form" action="https://globestack.us1.list-manage.com/subscribe/post" method="post">
+            <input type="hidden" name="u" value="c43eb164b9bb3129d724ce5b9">
+            <input type="hidden" name="id" value="55ac56ae8a">
+
+            <div id="mc_embed_signup_scroll" class="form-container">
+
+
+              <div class="form-heading-container">
+                <h5>Have a question?</h5>
+                <h2>
+                  We'd Love <br />
+                  to Hear <br />
+                  From You
+                </h2>
+                <p>
+                  Shoot us an email, and we'll get in touch with you soon.
+                  &#128077;
+                </p>
+              </div>
+              <div class="form-input-container">
+                <input class="contact-form-input" type="name" name="MERGE1" id="MERGE1" size="25"
+                  placeholder="Your name">
+                <input class="contact-form-input" type="email" autocapitalize="off" autocorrect="off" name="MERGE0"
+                  id="MERGE0" size="25" placeholder="Your email">
+                <textarea name="MERGE2" id="MERGE2" class="contact-form-textarea"
+                  placeholder="How can we help?"></textarea>
+                <input class="button contact-form-submit" type="submit" value="Submit">
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-index">
+      <img class="footer-logo" src="img/footer-logo.png" />
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#contact-form">Contact</a></li>
+          <li><a
+              href="https://globestack.us.auth0.com/authorize?response_type=code&client_id=mUlrIQJ0rJRpafNoJ1D1Aqqp7g8stOOG&redirect_uri=https://app.globestack.io/auth/callback&scope=openid">Sign
+              in</a></li>
+          <li><a
+              href="https://globestack.us.auth0.com/authorize?response_type=code&client_id=mUlrIQJ0rJRpafNoJ1D1Aqqp7g8stOOG&redirect_uri=https://app.globestack.io/auth/callback&scope=openid&screen_hint=signup">Get
+              Started</a></li>
+          <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="/tos.html">Terms of Use</a></li>
+        </ul>
+      </nav>
+      <p class="copywrite-text">
+        Copywrite © GlobeStack 2021 All Rights Reserved
+      </p>
+    </footer>
+  </div>
+  <script src="globestack.js"></script>
+</body>
+
+</html>
